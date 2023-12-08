@@ -4,10 +4,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.Pessoa.Api", "Cadastro.Pessoa.Api\Cadastro.Pessoa.Api.csproj", "{6499AAB0-0FB2-4AF8-B66D-9578D8F06615}"
+	ProjectSection(ProjectDependencies) = postProject
+		{209D90E3-6A25-4227-BA8C-C95FB02FA469} = {209D90E3-6A25-4227-BA8C-C95FB02FA469}
+		{50A88213-20E9-4F0F-83BA-9E13A6D66DCB} = {50A88213-20E9-4F0F-83BA-9E13A6D66DCB}
+		{D604D679-5A5A-4194-A961-63EF609E67AA} = {D604D679-5A5A-4194-A961-63EF609E67AA}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.Pessoa.Application", "Cadastro.Pessoa.Application\Cadastro.Pessoa.Application.csproj", "{50A88213-20E9-4F0F-83BA-9E13A6D66DCB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.Pessoa.CrossCutting", "Cadastro.Pessoa.CrossCutting\Cadastro.Pessoa.CrossCutting.csproj", "{209D90E3-6A25-4227-BA8C-C95FB02FA469}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4B0FC38A-B275-4F17-9622-4F87DE102ABF} = {4B0FC38A-B275-4F17-9622-4F87DE102ABF}
+		{50A88213-20E9-4F0F-83BA-9E13A6D66DCB} = {50A88213-20E9-4F0F-83BA-9E13A6D66DCB}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.Pessoa.Domain", "Cadastro.Pessoa.Domain\Cadastro.Pessoa.Domain.csproj", "{D604D679-5A5A-4194-A961-63EF609E67AA}"
 EndProject
